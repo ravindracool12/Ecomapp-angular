@@ -13,11 +13,11 @@ import { UpdateProductComponent } from './update-product/update-product.componen
 const routes: Routes = [
 { path: '', component: ViewAllProductComponent },
 { path: 'add-product', component: AddProductComponent },
-{ path: 'view-product', component:ViewProductComponent },
+{ path: 'category/:id', component:ViewProductComponent },
 //{ path: 'list-product', component:ViewAllProductComponent },
 { path: 'search-cat', component: ViewProductByCategoryComponent },
 { path: 'search-date', component:ViewProductByDateComponent },
-{ path: 'delete-product', component:DeleteProductComponent },
+{ path: 'delete-product/:id', component:DeleteProductComponent },
 { path: 'view-product/:id', component:ViewProductComponent },
 { path: 'update-product/:id', component:UpdateProductComponent }
 
