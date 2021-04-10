@@ -1,0 +1,91 @@
+
+{
+  "product": [
+    { "id": 3,
+     "productName": "Party Wear Shirt",
+     "categoryId":1,
+     "decriptions":"description first",
+     "price":300,
+     "is_avalable":true,
+     "productImg":"http://localhost:4200/assets/1.jpg",
+     "rating":4,
+     "review":150,
+     "vendor_name":"abc shop",
+     "waranty":1
+     },
+    { "id": 3,
+     "name": "Blue Shirt",
+     "categoryId":4,
+     "decriptions":"description second",
+     "price":370,
+     "is_avalable":true,
+     "productImg":"http://localhost:4200/assets/4.jpg",
+     "rating":4,
+     "review":150,
+     "vendor_name":"akc shop",
+     "waranty":1
+     },
+    { "id": 3,
+     "name": "T-Shirt",
+     "categoryId":6,
+     "decriptions":"description third",
+     "price":390,
+     "is_avalable":true,
+     "productImg":"http://localhost:4200/assets/2.jpg",
+     "rating":4,
+     "review":150,
+     "vendor_name":"azc shop",
+     "waranty":1
+     },
+     { "id": 4,
+      "name": "Men T-Shirt",
+      "categoryId":8,
+      "decriptions":"description third",
+      "price":390,
+      "is_avalable":true,
+      "productImg":"http://localhost:4200/assets/4.jpg",
+      "rating":4,
+      "review":150,
+      "vendor_name":"azc shop",
+      "waranty":1
+      },
+      { "id": 1,
+        "name": "Extra T-Shirt",
+        "categoryId":7,
+        "decriptions":"description Five",
+        "price":390,
+        "is_avalable":true,
+        "productImg":"http://localhost:4200/assets/2.jpg",
+        "rating":2,
+        "review":150,
+        "vendor_name":"azc shop",
+        "waranty":1
+        },
+        { "id": 5,
+          "name": "T-Shirt",
+          "categoryId":2,
+          "decriptions":"description Six",
+          "price":390,
+          "is_avalable":true,
+          "productImg":"http://localhost:4200/assets/2.jpg",
+          "rating":3,
+          "review":150,
+          "vendor_name":"azc shop",
+          "waranty":1
+          }
+  ],
+  "categories": [
+    { "id": 1, "categoryName" : "Electronics" },
+    { "id": 2, "categoryName": "Men" },
+    { "id": 3, "categoryName": "Women" },
+    { "id": 4, "categoryName": "Home & furniture" },
+    { "id": 5, "categoryName": "Baby & Kids" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
